@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuaweiToDoList", "HuaweiToDoList\HuaweiToDoList.csproj", "{87F403B5-9412-45F5-8A2D-B95C5458D119}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HuaweiToDoListSetup", "HuaweiToDoListSetup\HuaweiToDoListSetup.vdproj", "{D3868CAF-DF09-4AB6-A799-C7FDF45BA501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F403B5-9412-45F5-8A2D-B95C5458D119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F403B5-9412-45F5-8A2D-B95C5458D119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F403B5-9412-45F5-8A2D-B95C5458D119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F403B5-9412-45F5-8A2D-B95C5458D119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3868CAF-DF09-4AB6-A799-C7FDF45BA501}.Debug|Any CPU.ActiveCfg = Debug
+		{D3868CAF-DF09-4AB6-A799-C7FDF45BA501}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51F918F2-F60E-4E48-A55B-B94A40733A2E}
+	EndGlobalSection
+EndGlobal

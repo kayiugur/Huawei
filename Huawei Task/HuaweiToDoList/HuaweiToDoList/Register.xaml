@@ -1,0 +1,25 @@
+﻿<Window x:Class="HuaweiToDoList.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HuaweiToDoList"
+        mc:Ignorable="d"
+        Title="Register" Height="277.57" Width="532.813" Icon="1-download.png" MaxHeight="277.57" MaxWidth="532.813" MinWidth="532.813" MinHeight="277.52">
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+    <Grid Margin="0,0,-6.4,-2">
+        <Grid.Background>
+            <ImageBrush ImageSource="6-things-to-do-list.png"/>
+        </Grid.Background>
+        <Button x:Name="RegisterButton" Content="Register" HorizontalAlignment="Left" Margin="139,194,0,0" VerticalAlignment="Top" Width="75" FontFamily="MV Boli" Background="White" FontWeight="Bold" Click="Register_Click"/>
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="331,194,0,0" VerticalAlignment="Top" Width="75" FontFamily="MV Boli" Background="White" FontWeight="Bold" Click="Exit_Click"/>
+        <TextBox x:Name="RegisterUserNameWindow" HorizontalAlignment="Left" Height="23" Margin="179,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="MV Boli"/>
+        <Label x:Name="RegisterUserNameLabel" Content="Username" HorizontalAlignment="Left" Margin="109,102,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" FontWeight="Bold"/>
+        <Label x:Name="RegisterPasswordLabel" Content="Password" HorizontalAlignment="Left" Margin="112,137,0,0" VerticalAlignment="Top" Height="40" FontFamily="MV Boli" FontWeight="Bold"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="236,194,0,0" VerticalAlignment="Top" Width="75" FontFamily="MV Boli" Background="White" FontWeight="Bold" Click="BackButton_Click"/>
+        <PasswordBox x:Name="RegisterPasswordName" HorizontalAlignment="Left" Margin="179,137,0,0" VerticalAlignment="Top" Width="219" Height="23"/>
+
+    </Grid>
+</Window>
